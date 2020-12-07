@@ -9,8 +9,10 @@
 #
 **included files :**
 - **main.py** - contains basic input of the polynomial equation, start axis & end axis values and step size for each iteration.
-- **my_tools.py** - constains few basic matrix manipulation and analysis functions for usage.
-#
+- **my_tools.py** - constains :
+- - - get_derivative(f) - computes & returns the derivative equation of a mathematical lambda expression ``f``
+- - - max_steps(a, b, err) - computes & returns the approx number of steps required to determine a root, wheres (``a``,``b``) is the range of values,
+- - - - and ``err`` is the tolerable error.
 **The algoritm will than print the list of roots.**
 #
 **requirments :**
