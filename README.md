@@ -4,3 +4,18 @@
 ### function of any degree, such as : 
 ### `` an*X^n + a(n-1)*X^(n-1) + ... + a2*X^2 + a1*X + a0`` where ``an,...a2,a1,0`` are constants and ``x`` is the indeterminate.
 #
+##### The algorithms will terminate the polynomial roots of the equation
+##### from the given input of range (``a``,``b``) , ``step size`` and allowed ``tolerance`` values.
+#
+**included files :**
+- **main.py** - contains basic input of the  equation,start & end values and step size
+- **my_tools.py** - constains few basic matrix manipulation and analysis functions for usage.
+#
+**The algoritm will than print the list of roots.**
+#
+**requirments :**
+- python>3.0
+- Numpy version 1.19.3 (previous to 1.19.4 -> had some issues initializing it)
+- Sympy - latest version.
+- all input should be valid  -> no validations were made
+- all functions, **my_tools.py** functions infcluded, must recieve valid parameters! -> no validations were made
