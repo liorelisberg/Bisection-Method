@@ -1,9 +1,11 @@
-import inspect
 import numpy as np
 from sympy import symbols
 
 
-# Returns step number to reach the desired accuracy
+# Returns step number to reach the desired accuracy, where
+# a - start value
+# b - end  value
+# err - value of tolerable error
 def max_steps(a, b, err):
     s = int(np.floor(- np.log2(err / (b - a)) / np.log2(2) - 1))
     return s
