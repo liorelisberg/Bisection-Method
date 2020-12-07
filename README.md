@@ -8,7 +8,11 @@
 ##### from the given input of range (``a``,``b``) , ``step size`` and allowed ``tolerance`` values.
 #
 **included files :**
-- **main.py** - contains basic input of the polynomial equation, start axis & end axis values and step size for each iteration.
+- **main.py** - contains : 
+  - bisection_method(p, start, end, tol=1e-6) - given the following ``p`` (polynomial lambda equation), ``start`` & ``end`` values (examined range of X axis),
+  ``tol`` (the allowed tolerable error) - the function computes & returns the root in range (``a``,``b``).
+  - find_polynomial_roots(p, start, end, step_size, tol) -  given the following ``p`` (polynomial lambda equation), ``start`` & ``end`` values (examined range of X axis),
+  ``step_size`` (size of movment between values on X axis) and ``tol`` (the allowed tolerable error) - the function computes & returns the list of polynomial roots, using the       bisection_method() function.
 - **my_tools.py** - constains :
   - get_derivative(f) - computes & returns the derivative equation of a mathematical lambda expression ``f``
   - max_steps(a, b, err) - computes & returns the approx number of steps required to determine a root, wheres (``a``,``b``) is the range of values,
