@@ -1,10 +1,10 @@
 # Bisection Algorithm using python
 
-### The following algorithm determines the roots of a polynomial
+### The following algorithm determines the roots of a polynomial (with approx tolerance)
 ### function of any degree, such as : 
 ### `` an*X^n + a(n-1)*X^(n-1) + ... + a2*X^2 + a1*X + a0`` where ``an,...a2,a1,0`` are constants and ``x`` is the indeterminate.
 #
-##### The algorithms will terminate the polynomial roots of the equation
+##### The algorithms will terminate the polynomial roots of the equation, using the Bisection Method,
 ##### from the given input of range (``a``,``b``) , ``step size`` and allowed ``tolerance`` values.
 #
 **included files :**
