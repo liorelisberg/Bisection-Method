@@ -8,14 +8,14 @@
 ##### from the given input of range (``a``,``b``) , ``step size`` and allowed ``tolerance`` values.
 #
 **included files :**
-- **main.py** - contains basic input of the  equation,start & end values and step size
+- **main.py** - contains basic input of the polynomial equation, start axis & end axis values and step size for each iteration.
 - **my_tools.py** - constains few basic matrix manipulation and analysis functions for usage.
 #
 **The algoritm will than print the list of roots.**
 #
 **requirments :**
-- python>3.0
-- Numpy version 1.19.3 (previous to 1.19.4 -> had some issues initializing it)
+- python>3.0.
+- Numpy version 1.19.3 (previous to 1.19.4 -> had some issues initializing it).
 - Sympy - latest version.
-- all input should be valid  -> no validations were made
-- all functions, **my_tools.py** functions infcluded, must recieve valid parameters! -> no validations were made
+- all input should be valid  -> no validations were made.
+- all functions, **my_tools.py** functions infcluded, must recieve valid parameters! -> no validations were made.
