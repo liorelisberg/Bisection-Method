@@ -25,7 +25,7 @@ def bisection_method(p, start, end, tol=1e-6):
 
 
 # paragraph 2 - find_polynomial_roots
-def find_polynomial_roots(p, start, end, step_size, tol):
+def find_polynomial_roots(p, start, end, step_size, tol =10**-6):
     a = start
     roots = list()
     while a + step_size <= end:  # while current value is still in range
@@ -63,7 +63,6 @@ if __name__ == '__main__':
 
     # get the list of roots from the function
     roots = find_polynomial_roots(lambda x: eval(fx), start, end, step_size)
-
     # output
     print('The roots of the polynomial function Y = {} :'.format(fx))
     print(" ".join(map(str, roots)))
